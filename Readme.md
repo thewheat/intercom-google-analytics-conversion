@@ -26,8 +26,8 @@
 ## Setup - Environment Variable Configuration
 - lists all variables needed for this script to work
 - `TOKEN`
-	- Requires an extended access token to read conversation to identify if it is from the help center
 	- Apply for an access token  https://app.intercom.io/developers/_
+	- A standard access token should be all that is needed as we are just reading user information via Intercom ID which does not require an extended scope
 	- Read more about access tokens https://developers.intercom.com/reference#personal-access-tokens-1 
 - `APP_ID`
 	- your Intercom app_id that you use in the [Javascript Visitor/Logged out Install](https://docs.intercom.com/install-on-your-product-or-site/quick-install/install-intercom-on-your-website-for-logged-out-visitors) / [Javascript user install](https://docs.intercom.io/install-on-your-product-or-site/install-intercom-on-your-web-app)
